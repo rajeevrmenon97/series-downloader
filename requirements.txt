@@ -1,0 +1,5 @@
+Django==2.0.4
+gunicorn==19.7.1
+pytz==2018.4
+selenium==3.11.0
+whitenoise==3.3.1
