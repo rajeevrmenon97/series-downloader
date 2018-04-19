@@ -1,0 +1,11 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Home - Download Series
+{% endblock title %}
+{% block content %}
+<form method="POST" action="{% url 'search' %}">
+  {% csrf_token %}
+  <input type="text" id="searchText"><br>
+  <input type="submit" value="Submit">
+</form>
+{% endblock content %}
